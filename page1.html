@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<div id="background">
+
+    <body>
+
+        <header style="background-color:dodgerblue;">
+            <img src="logo.jpg" alt="Logo" id="logo">
+            <img src="atsymbol.png" alt="At Symbol" id="at">
+            <form method="GET" id="searchform" action="https://www.google.com/search" target="_blank">
+                Search:
+                <br>
+                <input type="text" name="q" id="search">
+                <br>
+                <input type="submit" value="Search">
+                <br>
+                <input type="radio" name="searchOption" value="Web" checked>Search the Web
+                <br>
+                <input type="radio" name="searchOption" value="Website">Search within the Website
+                <br>
+            </form>
+            <nav class="menu">Menu
+                <ul>
+                    <li>
+                        <a href="page1.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="page2.html">Privacy Agreement</a>
+                    </li>
+                    <li>
+                        <a href="page3.html">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="signup">
+                <article>
+                    <p>Join my website today for...</p>
+
+
+                    <form id="form">
+                        First Name:
+                        <br>
+                        <input type="text" name="firstname" autofocus autocomplete="on" placeholder="First Name">
+                        <br> Last Name:
+                        <br>
+                        <input type="text" name="lastname" autocomplete="on" placeholder="Last Name">
+                        <br> Email:
+                        <br>
+                        <input type="email" name="email" placeholder="email@example.com">
+                        <br> Password:
+                        <br>
+                        <input type="password" name="password">
+                        <br> Re-enter Password:
+                        <br>
+                        <input type="password" name="password">
+                        <br> Birthday:
+                        <br>
+                        <input type="date" name="birthbay" value="1998-01-01">
+                        <br> Major:
+                        <br>
+                        <input list="majors">
+                        <datalist id="majors">
+                            <option value="Civil Engineering"></option>
+                            <option value="Computer Engineering"></option>
+                            <option value="Computer Information Technology"></option>
+                            <option value="Computer Science"></option>
+                            <option value="Electrical Engineering"></option>
+                            <option value="Manufacturing Systems Engineering"></option>
+                            <option value="Mechanical Engineering"></option>
+                        </datalist>
+                        <br> Your <span class="favorite">Favorite Color</span>:
+                        <br>
+                        <input type="color" name="favcolor">
+                        <br> Number of Years in College:
+                        <br>
+                        <input type="number" name="years" min="1" max="4">
+                        <br> Telephone:
+                        <br>
+                        <input type="tel" name="tel" placeholder="###-###-####" pattern="^\d{3}-\d{3}-\d{4}$" required>
+                        <br> Link to your homepage:
+                        <br>
+                        <input type="url" name="homepage">
+                        <br> Years of experience:
+                        <br> 0-5
+                        <input type="radio" name="experience" value="0-5"> 5-10
+                        <input type="radio" name="experience" value="5-10"> 10-15
+                        <input type="radio" name="experience" value="10-15"> 15-20
+                        <input type="radio" name="experience" value="15-20"> 20+
+                        <input type="radio" name="experience" value="20+">
+                        <br> Skill level in
+                        <...>
+                            <br> 0
+                            <input type="range" min="0" max="10">10
+                            <br> Contact Preference:
+                            <br>
+                            <input type="checkbox" name="receiveOffers" value="offers"> I would like to receive emails about
+                            new products and offers
+                            <br>
+                            <input type="checkbox" name="receiveMembership" value="membership"> I would like to receive emails
+                            about my account and membership
+                            <br>
+                            <input type="checkbox" name="receiveMail" value="mail"> I would like to receive mail
+                            <br>
+                            <br>
+                            <input type="submit" value="Sign Up">
+                            <input type="reset" value="Reset">
+                    </form>
+                </article>
+            </div>
+
+        </section>
+
+        <footer style="background-color:dodgerblue; position:relative;">
+            <p>
+                <img src="logo.jpg" alt="Logo" id="logo" style="bottom:0; left:0;">
+                <a href="page2.html">&copy; COMPANY, INC. ALL RIGHTS RESERVED</a>
+            </p>
+            <p style="position:absolute; bottom:0; right:0;">
+                Contact us at:
+                <a href="mailto:company@example.com">company@example.com</a>
+            </p>
+        </footer>
+
+    </body>
+</div>
+
+</html>

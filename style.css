@@ -1,0 +1,266 @@
+* {
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
+a:hover {
+    text-decoration:underline;
+    color:red;
+}
+
+nav {
+    border: 2px solid royalblue;
+   /* width: fit-content;
+    height: fit-content;*/
+    font-family: monospace;
+    font-size: 120%;
+    background-color: royalblue;
+    text-align: center;
+}
+
+nav:hover ul {
+    visibility: visible;
+    display: block;
+    background-color: lightgray;
+}
+
+nav ul li:hover {
+    background-color: powderblue;
+}
+
+nav ul li {
+    border-top: 2px solid royalblue;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    visibility: hidden;
+    display: none;
+}
+li a {
+    font-style:oblique; 
+}
+
+.menu {
+    width: 10em;
+    color:white;
+    position:absolute; 
+    top:15px; left:190px;
+    /*visibility:hidden;*/
+}
+
+#logo {
+    width:175px;
+    height:175px;
+    position:relative;
+    top:0;
+    left:0;
+    z-index:0
+}
+
+#at {
+    width:175px;
+    height:175px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1
+}
+
+#searchform {
+    position:absolute;
+    top:15px;
+    right:10px;
+    color:white;
+}
+#signup{
+    text-align: center;
+    align-content: center;
+    font-size:28pt;
+}
+
+
+#form{
+    font-size:14pt;
+    display:inline-block;
+    border:groove;
+    border-color:silver;
+    padding:30px;
+    border-width:15px;
+    width:fit-content;
+    position:relative;
+    background:white;
+    text-align:center;
+}
+
+#background{
+    background-image:url("background.jpg");     
+    background-repeat:repeat;
+    background-position-x: center;
+}
+
+#higlightThis{
+    color: red;
+    background:yellow;
+}
+
+.favorite{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color:red;
+}
+
+
+#cs{
+    border-style: solid;
+    }
+
+    th,td{
+        border: 1px solid;
+    }
+
+    thead{ 
+        color: black;
+        }
+
+/*Begin Stuff For Page 2, privacy*/ 
+
+.privacyArt{
+    margin:0px;
+    padding:1px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/2000px-Sign_language_Y.svg.png), silver;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 20%;
+    background-position: bottom left;
+    width:100%;
+    position:relative;
+}
+
+@media screen and (min-width: 1025px){
+    .privacyColumn{
+        column-count: 4;
+        column-gap: 25px;
+        column-rule:none;
+        text-align:justify;
+    }
+    .privacyArt{
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/2000px-Sign_language_Y.svg.png), skyblue;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 20%;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1025px){
+    .privacyColumn{
+        column-count: 3;
+        column-gap: 30px;
+        column-rule:none;
+        text-align:justify;
+        
+    }
+    .privacyArt{
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/2000px-Sign_language_Y.svg.png), skyblue;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 20%;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (max-width:480px){
+    .privacyColumn{
+        column-count:2;
+        column-gap:20px;
+        column-rule:none;
+        text-align:justify;
+        
+    }
+    .privacyArt{
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/2000px-Sign_language_Y.svg.png), silver;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 20%;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    .privacyColumn{
+        color:purple;
+        text-align:left;
+    }
+}
+.privacyColumn{
+    width:80%;
+    float:none;
+}
+
+
+.aside{
+    background-color: pink;
+    width: 20%;
+    right:0px;
+    top:0px;
+    float:right;
+    height:100%; 
+    position:absolute;
+}
+
+/*
+.bodyP{
+    content: "";
+    clear: both;
+    display:table;
+}
+*/
+
+.footerp{
+    background-color: dodgerblue; 
+    position: relative; 
+    right: 0;
+    left: 0;
+    bottom: 20px; 
+    width: 100%;
+} 
+/*End stuff for page 2, privacy*/ 
+
+
+/*Begin Stuff For Page 3, About Us*/        
+#long{
+    margin:2em;
+}
+
+#longP1{
+    padding:2em;
+    width:30%;
+    height:150px;    
+    display:block;
+    overflow:scroll; 
+}
+
+#longP2{
+    width:30%;
+    height:150px;
+    display:block;
+    overflow: hidden;
+}
+
+
+*.highlight:hover{
+    background-color: yellow;
+}
+
+/*End stuff for page 3, about us*/
+
+
+
+
+
+
